@@ -28,6 +28,12 @@
     },
     "end": {
       "type": "date"
+    },
+    "job_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::job-category.job-category",
+      "inversedBy": "jobs"
     }
   }
 }
