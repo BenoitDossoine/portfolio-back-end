@@ -56,11 +56,18 @@
       "mappedBy": "projects"
     },
     "soundtrack": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

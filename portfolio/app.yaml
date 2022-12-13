@@ -1,0 +1,15 @@
+runtime: nodejs16
+
+instance_class: F2
+
+env_variables:
+
+  DATABASE_HOST: "ID393244_strapi.db.webhosting.be"
+
+  NODE_ENV: "production"
+
+  DATABASE_NAME: "ID393244_strapi"
+
+  DATABASE_USERNAME: "ID393244_strapi"
+
+  DATABASE_PASSWORD: "!Seb2000"
